@@ -1,0 +1,8 @@
+# Ignore virtual environment folders anywhere in the project
+.venv/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
