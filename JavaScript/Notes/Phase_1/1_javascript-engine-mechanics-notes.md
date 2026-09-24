@@ -70,6 +70,18 @@ An **Execution Context** is the environment created by the engine to evaluate an
 - Real values are assigned to variables (replacing the `undefined` placeholders).
 - Function calls are made, and each call creates a **new Execution Context** for that function.
 
+**Note: - Best way to understand the execution of javascript code is to see it in action using the console and step by step**
+
+- Global Execution Context: Jab bhi tu node filename.js chalata hai, V8 engine sabse pehle Global Execution Context (GEC) hi banata hai. [Ekdam Sahi]
+
+- Memory Creation Phase: GEC ka pehla phase wahi memory allocation aur hoisting ka hota hai, jahan variables aur functions ke liye dabbe bante hain (var ko undefined milta hai, let/const uninitialized rehte hain). [Ekdam Sahi]
+
+- Code Execution Phase: Phir engine doosra phase shuru karta hai jisme wo wapas top se shuru karke line-by-line values assign karta hai aur code run karta hai. [Ekdam Sahi]
+
+- Function Execution Context: Jab bhi code run hote waqt koi function call hota hai, toh engine us function ke liye ek naya Function Execution Context banata hai aur Call Stack ke top par rakh deta hai. [Ekdam Sahi]
+
+- Sequential Flow: Pura single-threaded JS engine isi tarah line-by-line Call Stack aur Execution Contexts ko manage karte hue code execute karta hai. [Ekdam Sahi]
+
 ### The Call Stack
 - JavaScript is **single-threaded** — it has exactly one Call Stack and can only do one thing at a time.
 - The Call Stack is a **LIFO (Last In, First Out)** structure.
