@@ -1,4 +1,4 @@
-# Preparation: Complete Topic List and 3-Day / 4-Night Plan
+# Preparation: Complete Topic List and Plan
 
 Scope: C++, OOPs, Data Structures and Algorithms, Operating Systems, Computer Networks, Linux, DBMS, Project and HR.
 Goal: go from "surface knowledge" to "internal understanding" in 4 nights and 3 days.
