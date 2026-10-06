@@ -5,14 +5,14 @@ Goal: go from "surface knowledge" to "internal understanding" in 4 nights and 3 
 
 ---
 
-## 1. What Nokia Usually Asks (Pattern From Past Candidate Reports)
+## 1. Core Systems & Technical Assessment Pattern
 
 - Online assessment: MCQs plus coding questions (technical MCQs on OS, C/C++, data structures, networking; sometimes quants, verbal, logical).
 - Technical rounds (1 to 3 rounds, about 60 to 90 minutes each): C++/OOPs, DSA (easy to medium), OS, Computer Networks, Linux, DBMS, and a deep dive into resume projects.
 - Role-dependent depth: embedded / R&D / systems roles go deeper into OS, C++ internals, networking, Linux and RTOS.
 - Reported question areas: semaphores and mutex, concurrency problems, zombie process, process communication, interrupts, Linux commands, OSI layers, IP addressing, operator overloading, constructors and destructors, linked list cycle detection and removal, Dijkstra variations, palindrome and subsets problems, array and string problems, project discussion.
-- HR round: why Nokia, strengths and weaknesses, teamwork, family background, behavioural questions.
-- Nokia tends to reward depth and clear fundamentals over broad but shallow coverage.
+- HR round: technical aspirations, strengths and weaknesses, teamwork, family background, behavioural questions.
+- Top tech companies tend to reward depth and clear fundamentals over broad but shallow coverage.
 
 ---
 
@@ -426,7 +426,7 @@ Goal: go from "surface knowledge" to "internal understanding" in 4 nights and 3 
 - Symmetric vs asymmetric encryption, hashing, digital signatures, PKI
 - DoS and DDoS, MITM, spoofing, ARP poisoning
 
-#### Telecom awareness (Nokia-specific bonus)
+#### Telecom & Network Systems Awareness
 - 4G LTE and 5G architecture basics (RAN, core network)
 - SDN and NFV
 - Optical networking and IP/MPLS basics
@@ -458,7 +458,7 @@ Goal: go from "surface knowledge" to "internal understanding" in 4 nights and 3 
 - For every project prepare: problem, design decisions and the "why", alternatives, failure cases, what you would improve
 
 #### HR
-- Why Nokia, why this role, strengths and weaknesses
+- Career aspirations, why this role, strengths and weaknesses
 - Teamwork, conflict, failure and learning examples
 - Relocation and shift flexibility, long-term goals
 

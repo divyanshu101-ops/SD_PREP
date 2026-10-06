@@ -8,3 +8,9 @@ __pycache__/
 *.pyc
 
 *.excalidraw
+
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+*.dll
